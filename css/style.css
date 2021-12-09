@@ -1,0 +1,572 @@
+* {
+    margin: 0px;
+    padding: 0px;
+/*
+    font-family: 'Nunito', sans-serif;
+  */
+  font-family: 'Archivo Narrow', sans-serif;  
+   
+    
+}
+
+.cleaner {
+    clear : both;
+}
+
+header  {
+    padding-top: 20px;
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    
+}
+
+header #logo {
+    float: left;
+}
+
+header #logo h1 {
+    font-size: 30px;
+}
+
+header #logo h1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.crvena {
+    color: #f01327;
+   
+}
+
+header nav {
+    float: right
+}
+
+header nav ul {
+    margin-top: 5px;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #000;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+#uvod {
+    background-image: url(../img/header.jpg);
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    
+}
+
+.sredina {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+#uvod .sredina #blok1 {
+    width: 35%;
+    float: left;
+    height: 500px;
+}
+
+#uvod .sredina #blok1 h1 {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+#uvod .sredina #blok1 p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#uvod .sredina #blok1 a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    transition: 0.4s;
+    
+}
+
+#uvod .sredina #blok1 a:hover {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 10px 20px;
+    transition: 0.4s;
+    
+}
+
+#informacije {
+    padding-top: 50px;
+    height: 630px;
+}
+
+
+
+#informacije #info h1 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#informacije #info h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#informacije #info h3  {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+#informacije #info p {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 800
+}
+
+#informacije #info p {
+    font-size: 20px;
+}
+
+#informacije #blok-usluge {
+    width: 80%;
+    margin: 40px auto;
+    
+}
+
+#informacije #blok-usluge p {
+    padding-bottom: 10px;
+}
+
+.usluge {
+    padding: 25px;
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    animation: fadeInLeft 2.2s both;
+}
+
+.animacija {
+    animation: fadeInRight 2.2s both;
+}
+
+.far, .fas, .fab {
+    color: #f01327;
+    font-size:40px;
+    
+}
+
+#blok-vrsta {
+    background-image: url(../img/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+   
+}
+
+#blok-vrsta h2 {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+ .centar {
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+#blok-vrsta .centar .nacin {
+    background-color: #f01327;
+    width: 350px;
+    height: 600px;
+    float: left;
+    margin-top: 50px;   
+    padding-bottom: 20px;
+    transition: 0.5s;
+    box-shadow: 3px 7px 16px 5px rgba(0,0,0,0.89);
+    animation: fadeInLeft 2.2s both;
+}
+
+#blok-vrsta .centar .nacin:hover {
+    margin-top: 30px;
+    
+}
+
+#blok-vrsta .centar .nacin2 { 
+    float: right;
+    animation: fadeInRight 2.2s both;
+}
+
+#blok-vrsta .centar .nacin p {
+    padding-left: 11px;
+    color: #fff;
+}
+
+#blok-vrsta .centar .nacin h2 {
+    color: #fff;
+}
+
+#blok-vrsta .centar .nacin img {
+    width: 330px; 
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 5px solid #292d33;
+}
+
+
+#blok-vrsta .dugme{
+    margin: 0 auto;
+}
+
+#blok-vrsta .dugme p {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#blok-vrsta .dugme p a {
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    transition: 0.4s;
+}
+
+#blok-vrsta .dugme p a:hover {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 10px 50px;
+    transition: 0.4s;
+}
+
+#blok-vrsta .blok-tekst {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    
+}
+
+
+
+#o-nama {
+    background-color: #f01327;
+    height: 450px;
+}
+
+#o-nama #tekst {
+    width: 50%;
+    margin: 0 auto;
+    height: 450px;  
+    padding-top: 100px;
+}
+
+#o-nama #tekst h1, #o-nama #tekst p {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#blok-forma {
+    background-color: #292d33;
+    width: 100%;
+}
+#blok-forma #img-forma {
+    background-image: url(../img/img-forma.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 50%;
+    float: left;
+}
+
+#blok-forma #forma {
+    float: right;
+    color: #fff;
+    width: 50%;
+    margin-top: 40px;
+    
+}
+
+#blok-forma #forma .centar form .items  {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#blok-forma #forma .centar form .items input {
+    width: 95%;
+    padding: 10px;
+    
+}
+
+#blok-forma #forma .centar form .items textarea {
+    width: 100%;
+}
+
+
+#blok-forma #forma .centar form .dugme input {
+    padding: 10px;
+    width: 100%;
+    background-color: #f01327;
+    border: 1px solid #f01327;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+#blok-forma #forma .centar form .dugme input:hover {
+    background-color:  #e0e5eb;
+    border: 1px solid  #e0e5eb;
+    color: #000;
+    transition: 0.4s;
+}
+
+#blok-kontakti {
+    height: 660px;
+
+}
+
+#blok-kontakti #tekst-blok {
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    font-weight: 700;
+    
+}
+
+
+#blok-kontakti #kontakti {
+    width: 50%;
+    margin: 0px auto;
+    height: 500px;
+    
+}
+
+#blok-kontakti #kontakti .kontakt .fas {
+    margin-top: 25px;
+    
+}
+
+#blok-kontakti #kontakti .kontakt {
+    background-color: #e0e5eb;
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;   
+    text-align: center;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    box-shadow: 3px 7px 16px 5px rgba(0,0,0,0.4);
+}
+
+#blok-kontakti #kontakti .kontakt:hover {
+    margin-top: 30px;
+    
+}
+
+#blok-kontakti #kontakti .kontakt p, #blok-kontakti #kontakti .kontakt h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#blok-kontakti #kontakti .desni {
+    float: right;
+}
+
+
+footer {
+    height: 350px;
+    background-color: #292d33;
+}
+
+footer .centar #footer-tekst {
+   margin-bottom: 30px;
+}
+
+footer .centar #footer-tekst h1 {
+    padding-top: 30px;
+}
+
+footer .centar #footer-tekst p {
+    font-size: 20px;
+}
+
+footer .centar #footer-tekst h1, footer .centar #footer-tekst p {
+    text-align: center;
+    color: #fff;
+}
+
+
+footer .centar .footer-kontakt {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+footer .centar .footer-kontakt .ikonice{
+    text-align: center;
+    
+}
+
+footer .centar .footer-kontakt .ikonice i, footer .centar .footer-kontakt .ikonice a {
+    padding-bottom: 20px;
+}
+
+footer .centar .footer-kontakt .ikonice a, footer .centar .footer-kontakt .ikonice p, footer .centar .footer-kontakt .ikonice ul li {
+    color: #fff;
+    text-decoration: none;
+}
+
+#cenovnik {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+}
+
+
+
+#cenovnik .blok-cena {
+    background-color: #e0e5eb;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 50px;   
+    padding-bottom: 20px;
+    box-shadow: 3px 7px 16px 5px rgba(0,0,0,0.4);
+    animation: fadeInLeft 1.2s both;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+#cenovnik .blok-cena h1, #cenovnik .blok-cena h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+#cenovnik .blok-cena ul {
+    padding-left: 35px;
+}
+
+#slike {
+    background-image: url(../img/pozadina.jpg);
+    width: 100%;
+}
+
+#slike #slike-tekst h1, #slike #slike-tekst h3 {
+    text-align: center;
+    color: #fff;
+}
+
+#slike .pre-posle {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+#slike .pre-posle img {
+    width: 30%;
+    box-shadow: 3px 7px 16px 5px rgba(0,0,0,0.4);
+    transition: 0.4s;
+}
+
+#slike .pre-posle img:hover {
+    border-radius: 20px;
+    box-shadow: 3px 7px 16px 5px rgba(0, 0, 0, 1);
+    transition: 0.4s;
+}
+
+#o-autoru {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+#o-autoru #img-autor {
+    float: left;
+    width: 40%;
+}
+
+#o-autoru #img-autor img {
+    margin: 30px;
+    box-shadow: 3px 7px 16px 5px rgba(0,0,0,0.4);
+    transition: 0.4s;
+}
+
+#o-autoru #img-autor img:hover {
+    box-shadow: 3px 7px 16px 5px rgba(0, 0, 0, 1);
+    transition: 0.4s;
+}
+
+#o-autoru #sadrzaj {
+    width: 60%;
+    float: left;
+    padding-top: 10%;
+}
+
+#o-autoru #sadrzaj p {
+    width: 50%;
+    font-size: 20px;
+}
