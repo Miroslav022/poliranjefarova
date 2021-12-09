@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rss version="2.0"> 
+    <channel>
+        <title>Poliranje farova</title>
+        <link>https://miroslav022.github.io/poliranjefarova/index.html</link>
+        <description>ovo je sajt koji nudi usluge poliranja farova</description>
+
+        <item>
+            <title>galerija</title>
+            <link>https://miroslav022.github.io/poliranjefarova/galerija.html</link>
+            <description>Na ovoj stranici mozete videti fotografije našeg rada</description>
+        </item>
+
+        <item>
+            <title>cenovnik</title>
+            <link>https://miroslav022.github.io/poliranjefarova/cenovnik.html</link>
+            <description>Stranica na kojoj se nalaze cene, takođe i akcije</description>
+        </item>
+    </channel>
+</rss>
