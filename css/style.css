@@ -435,6 +435,10 @@ footer .centar #footer-tekst h1, footer .centar #footer-tekst p {
     color: #fff;
 }
 
+footer .centar #footer-tekst a {
+    text-decoration:none;
+    color:#fff;
+}
 
 footer .centar .footer-kontakt {
     display: flex;
