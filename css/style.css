@@ -440,6 +440,10 @@ footer .centar #footer-tekst a {
     color:#fff;
 }
 
+footer .centar #footer-tekst a:hover {
+    text-decoration:underline;   
+}
+
 footer .centar .footer-kontakt {
     display: flex;
     justify-content:space-evenly;
